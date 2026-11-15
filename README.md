@@ -1,17 +1,18 @@
 # Virtuální 3D Učitel, AI Foto-Kůže & Video MoCap Studio
 
-Jemně modularizovaná verze — **každá funkce ve vlastním souboru**.
+**Kompletní jemná modularizace — všech 110 funkcí ve vlastních souborech.**
 
 ## Struktura
 
 - `js/catalogs.js` — MOTION_CATALOG, JOINT_METADATA, TTS_VOICE_CATALOG
-- `js/globals.js` — všechny globální proměnné a konfigurace avatara
-- `functions/` — **110 jednotlivých funkcí**, každá ve vlastním `.js` souboru (pojmenovaném podle funkce)
-- `index.html` — načítá vše ve správném pořadí (sdílený globální scope)
-- `original/` — původní monolitický HTML
+- `js/globals.js` — globální stav a konfigurace avatara
+- `functions/` — **110 jednotlivých funkcí**, každá ve vlastním `.js` souboru
+- `index.html` — načítá katalogy, globals a všechny funkce ve správném pořadí
 
 ### Použití
 
-Otevřete `index.html` v prohlížeči. Všechny skripty se načítají sekvenčně.
+Otevřete `index.html` v prohlížeči. Všechny skripty se načítají sekvenčně a sdílejí globální scope.
 
-*Rozděleno podle jednotlivých funkcí podle pokynů.*
+---
+
+*Rozděleno podle jednotlivých funkcí. Všechny soubory nahrány.*
