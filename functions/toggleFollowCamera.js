@@ -1,0 +1,3 @@
+function toggleFollowCamera() {
+    followCamera = !followCamera;
+}
